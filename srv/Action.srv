@@ -1,0 +1,5 @@
+bool[] coms
+float64 delta
+float64 speed
+string command
+---
