@@ -5,15 +5,10 @@ add_message_files(FILES
   Object.msg
   Point.msg
   ObjectList.msg
+  CalcDeltas.msg
 )
 add_service_files(FILES
-  LvxData.srv
-  RollAdj.srv
-  GetData.srv
-  DetectObjects.srv
-  CalcDeltas.srv
   GetDelta.srv
-  ObjectDetectionList.srv
 )
 generate_messages(DEPENDENCIES std_msgs)
 catkin_package(
