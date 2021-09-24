@@ -1,5 +1,5 @@
-Float64 [] t
-Float64 [] c
+Float64[] t
+Float64[] c
 Int32 k
 Float64 full_len
 ---
