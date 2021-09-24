@@ -9,7 +9,7 @@ add_message_files(FILES
 )
 add_service_files(FILES
   GetDelta.srv
-  Path.srv
+  TCK.srv
 )
 generate_messages(DEPENDENCIES std_msgs)
 catkin_package(
