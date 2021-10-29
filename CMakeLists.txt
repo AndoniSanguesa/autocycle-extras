@@ -6,10 +6,12 @@ add_message_files(FILES
   Point.msg
   ObjectList.msg
   CalcDeltas.msg
+  GPS.msg
 )
 add_service_files(FILES
   GetDelta.srv
   TCK.srv
+  DesiredGPS.srv
 )
 generate_messages(DEPENDENCIES std_msgs)
 catkin_package(
