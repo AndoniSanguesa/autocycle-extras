@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 project(autocycle_extras)
 find_package(catkin REQUIRED COMPONENTS message_generation roscpp std_msgs)
 add_message_files(FILES
+  Data.msg
   Object.msg
   Point.msg
   ObjectList.msg
